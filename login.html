@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: #33C4FF;">
+    <div style="text-align: center; border: 1px solid; margin: 0 auto; width: 300px;background-color: cadetblue;margin-top: 100px;" class="signup">
+        <div class="content"> 
+            <h1 style="color: currentcolor;">Log In</h1>
+    <label for="emailLog">Email</label><br />
+    <input type="email" id="emailLog" placeholder="Enter Email..."><br />
+
+    <label for="passwordLog">Password</label><br />
+    <input type="password" id="passwordLog" placeholder="Enter Password..."><br />
+
+    <button onclick="login()" style="background-color: black; border: none; border-radius: 5px; color: white; height: 30px;">SingUp</button>
+</div>
+</div>
+</body>
+<script src="post.js"></script>
+<script src="server.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</html>
+<style>
+
+input{
+    width: 200px;
+    height: 30px;
+    margin: 20px;
+    border: 2px solid;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background-color: cadetblue;
+}
+
+::placeholder{
+    color: black;
+}
+
+label{
+    color: currentcolor;
+}
+.content{
+    margin: 30px;
+}
+
+
+
+</style>
